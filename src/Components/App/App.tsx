@@ -6,6 +6,8 @@ import css from "./App.module.css";
 import type { Votes } from "../../types/votes";
 import { Notification } from "../Notification/Notification";
 
+// homework
+
 export const App = () => {
   const [votes, setVotes] = useState<Votes>({
     good: 0,
